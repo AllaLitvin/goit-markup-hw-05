@@ -130,8 +130,8 @@ background color footer: #2F303A;*/
   padding-bottom: 33px;
   text-decoration: none;
 }
-.site-nav :hover .link,
-.site-nav :focus .link {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--blue);
 }
 
@@ -689,14 +689,14 @@ background color footer: #2F303A;*/
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.flex-elements:hover,
-.flex-elements:focus {
+.flex-elements a:hover,
+.flex-elements a:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.flex-elements:hover .description,
-.flex-elements:focus .description {
+.flex-elements a:hover .description,
+.flex-elements a:focus .description {
   transform: translateY(-100%);
   opacity: 1;
 }
